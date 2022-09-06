@@ -1,7 +1,9 @@
 backend:
-  - name: test-repo-2
-  + name: github
-  + repo: jacmilski/test-repo-2
+  name: git-gateway
+  branch: main
+
+media_folder: static/img
+public_folder: /img
 
 collections:
   - name: 'blog'
